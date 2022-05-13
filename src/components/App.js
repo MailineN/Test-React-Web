@@ -1,13 +1,12 @@
-import logo from '../logo.svg';
 import '../App.css';
 import Banner from './Banner';
-import AnimalList from "./AnimalList";
+import DisplayList from "./DisplayList";
 
 function App() {
   return (
       <div>
         <Banner/>
-        <AnimalList/>
+          <DisplayList/>
       </div>
 
   );
